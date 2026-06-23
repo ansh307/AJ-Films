@@ -49,8 +49,8 @@ export default function CreativeShowcase() {
 
         <div className="mt-20 relative overflow-hidden">
           {/* FADE EDGES */}
-          <div className="pointer-events-none absolute left-0 top-0 h-full w-72 bg-gradient-to-r from-[var(--background)] to-transparent z-10" />
-          <div className="pointer-events-none absolute right-0 top-0 h-full w-72 bg-gradient-to-l from-[var(--background)] to-transparent z-10" />
+          <div className="pointer-events-none absolute left-0 top-0 h-full w-32 sm:w-72 bg-gradient-to-r from-[var(--background)] to-transparent z-10" />
+          <div className="pointer-events-none absolute right-0 top-0 h-full w-32 sm:w-72 bg-gradient-to-l from-[var(--background)] to-transparent z-10" />
 
           {/* OUTER (no rotation, controls clipping) */}
           <div className="overflow-visible py-10">

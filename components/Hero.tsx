@@ -36,7 +36,7 @@ export default function Hero() {
           <div className="pointer-events-none absolute right-0 top-0 h-full w-44 z-10 bg-gradient-to-l from-[var(--background)] to-transparent" />
 
           {/* SCROLL */}
-          <div className="flex w-max items-center gap-36 animate-scroll">
+          <div className="flex w-max items-center gap-20 sm:gap-36 animate-scroll">
             {[...logos, ...logos].map((src, i) => (
               <Image
                 key={i}
@@ -44,7 +44,7 @@ export default function Hero() {
                 alt="client logo"
                 width={140}
                 height={70}
-                className="opacity-100 hover:opacity-100 transition duration-300 shrink-0"
+                className="opacity-100 hover:opacity-100 transition scale-75 sm:scale-100 duration-300 shrink-0"
               />
             ))}
           </div>
